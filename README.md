@@ -3,7 +3,7 @@
 
 This PowerShell script makes it possible to hash multiple files **with progress** - plus drag 'n' drop support.
 
-To achieve this, it utilizes the existing [Get-FileHash Utility Cmdlet](https://technet.microsoft.com/library/dn520872.aspx) (which *does not* have a progress indicator) and reads Windows' I/O performance counter data for an approximation of the current progress via [Get-Counter](https://technet.microsoft.com/library/hh849685.aspx).
+To achieve this, it utilizes the existing [Get-FileHash Utility Cmdlet](https://technet.microsoft.com/library/dn520872.aspx) (which *does not* have a progress indicator) and reads Windows' I/O performance counter data for an approximation of the current progress via [Get-Counter](https://technet.microsoft.com/library/hh849685.aspx). Read more [here](https://pyotek.github.io/news/powhash).
 
 ## Features
 
